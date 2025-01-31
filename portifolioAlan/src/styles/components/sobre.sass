@@ -1,9 +1,77 @@
+@import '../global/variables'
+
 section
-    background-color: pink
-    div
-        display: flex
-        justify-content: center
-        align-items: center
-        width: 100%
+    background: linear-gradient(135deg, #bebcbc, #7a7a7a)
+    .container-sobre
+        position: relative
         height: 100vh
-        background-color: green
+        display: flex
+        justify-content: space-between
+        align-items: center
+        padding: 0 5%
+        overflow: hidden  
+
+        .apresentacao
+            width: 50%
+            height: auto
+            color: white
+            z-index: 2
+            position: relative
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            padding: 20px
+            gap: 1em
+            
+            h1
+                color: #0e0d0d
+                font-size: 30px
+                width: 100%
+                display: flex
+                font-family: $font-Raleway
+                justify-content: flex-start
+                margin-left: 3em
+
+            .nome
+                display: flex
+                flex-direction: column
+                justify-content: center
+                align-items: center
+                font-family: $font-Raleway
+                width: 100%
+
+                h2
+                    letter-spacing: 5px
+                    font-size: 60px
+                    font-weight: bold
+                p
+                    color:#0e0d0d 
+                    letter-spacing: 2.5px
+                        
+            .icones
+                display: flex
+                align-items: center
+                justify-content: center
+                gap: 15px
+                margin-top: 50px
+                width: 100%
+                img
+                    height: 45px
+                    transition: 0.7s
+
+                img:hover
+                    filter: blur(5px)
+                    cursor: pointer
+
+        .imagem-alan
+            width: 40%
+            height: auto
+            display: flex
+            justify-content: center
+            align-items: center
+            z-index: 2
+            
+            img
+                height: 100%
+                max-width: 100%
