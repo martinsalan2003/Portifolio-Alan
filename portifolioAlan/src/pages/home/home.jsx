@@ -1,6 +1,7 @@
 import Header from "../../components/Header.jsx"
 import Info from "../../components/Info.jsx"
 import Sobre from "../../components/sobre.jsx"
+import Sobremim from '../../components/Sobremim.jsx'
 
 function Home() {
   return(
@@ -8,6 +9,8 @@ function Home() {
     <Header />
     <Sobre />
     <Info/>
+    <Sobremim/>
+    
     <div>
       <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde dolorem, ea officia consequuntur odio tenetur, eum necessitatibus obcaecati dolore aliquid libero qui saepe expedita consequatur incidunt repellendus dolorum tempora? Quisquam?</div>
       <div>Nobis officiis culpa id soluta rem. Officia temporibus aperiam pariatur sint voluptatum, placeat ex aut, ad et unde, quam nemo distinctio laboriosam molestiae ipsam dolorem! Provident est consectetur corrupti officia?</div>
