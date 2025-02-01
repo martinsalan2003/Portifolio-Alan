@@ -6,7 +6,7 @@ import linkedin from '../assets/images/linkedin.svg'
 
 export default function Sobre() {
     return (
-        <section>
+        <section className='container'>
             <div className='container-sobre'>
                 <div className="apresentacao">
                     <h1>Olá, Sou</h1>
