@@ -3,7 +3,6 @@
 section
     background: linear-gradient(135deg, #bebcbc, #7a7a7a)
     .container-sobre
-        position: relative
         height: 100vh
         display: flex
         justify-content: space-between
@@ -15,7 +14,6 @@ section
             width: 50%
             height: auto
             color: white
-            z-index: 2
             position: relative
             display: flex
             flex-direction: column
@@ -32,8 +30,10 @@ section
                 font-family: $font-Raleway
                 justify-content: flex-start
                 margin-left: 3em
+            
 
             .nome
+                margin-left: 30%
                 display: flex
                 flex-direction: column
                 justify-content: center
@@ -70,8 +70,55 @@ section
             display: flex
             justify-content: center
             align-items: center
-            z-index: 2
             
             img
                 height: 100%
                 max-width: 100%
+
+// exibição mobile
+@media (max-width: 768px)
+
+    .container-sobre
+        display: block !important
+        padding: 0 !important
+
+        .apresentacao
+            z-index: 2
+            position: absolute
+
+            width: 100% !important
+            margin-top: 100%
+            bottom: 0 !important
+            
+            h1
+                margin: 0 !important
+
+                font-size: 25px !important
+            .icones
+                width:10% !important
+                position: absolute
+                flex-direction: column
+                float: right
+              
+                right:15px
+                bottom: 60px
+
+            .nome
+                margin:  0 !important
+               
+               
+                h2
+                    font-size: 50px !important
+                p
+                    letter-spacing: 2px !important
+    
+
+            
+
+        .imagem-alan
+            z-index: 1
+            position: absolute
+            bottom: 0
+            height: 80% !important
+            width: 100%  !important
+            

@@ -24,6 +24,7 @@ function Header() {
       
       
       <div 
+      // inicia o menu mobile
         className={`hamburger ${menuOpen ? 'active' : ''}`} 
         onClick={() => setMenuOpen(!menuOpen)}
       >
