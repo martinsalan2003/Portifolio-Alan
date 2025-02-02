@@ -51,7 +51,7 @@ Sou movido por desafios, adoro aprender novas tecnologias e estou sempre em busc
 
             <div className="conhecimentos">
                 {conhecimentos.map((item, index) => (
-                    <div className="card" key={index}>
+                    <div className={`card ${item.title === 'Manutenção' ? 'manutencao-card' : ''}`} key={index}>
                         <div className="icone-fundo">
                             <img src={item.icone} alt={item.title} />
                         </div>
