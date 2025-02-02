@@ -1,0 +1,102 @@
+@import '../global/variables'
+    
+.container-habilidades
+    padding: 1% 10%
+    h1
+        font-family: $font-Montserrat
+        font-weight: bold
+        text-align: center
+        margin-bottom: 3.5em
+        span
+            letter-spacing: 5px
+            font-family: $font-Montserrat
+            font-weight: bold
+            padding: 15px 30px
+            border: 5px solid #000000 
+    
+    .card-habilidade
+        img
+            height: 50px
+        p
+            margin-top: 5px
+            font-family: $font-Montserrat
+            color: #1D1D1D
+            font-weight: 600
+    
+    .container-usando
+        border: 1px sold red
+        margin: 0 15% 0 15%
+        h2
+            font-family: $font-Montserrat
+            margin-bottom: 35px
+            letter-spacing: 3.5px
+        .habilidades-grid
+            display: grid
+            grid-template-columns: repeat(4, 1fr)
+            img
+                margin-top: 35px
+    .container-aprendendo
+        margin: 8% 15% 0 15%
+        h2
+            font-family: $font-Montserrat
+            margin-bottom: 35px
+            letter-spacing: 3.5px
+        .habilidades-grid
+            display: grid
+            grid-template-columns: repeat(4, 1fr)
+    .container-outros
+        margin: 8% 15% 0 15%
+        h2
+            font-family: $font-Montserrat
+            margin-bottom: 35px
+            letter-spacing: 3.5px
+        .habilidades-grid
+            display: grid
+            grid-template-columns: repeat(4, 1fr)
+
+// mobile
+@media (max-width: 768px)
+    .container-habilidades
+        border: 1px solid border
+        .card-habilidade
+            img
+             height: 60px
+            p
+                margin-top: 5px
+            
+
+    .container-usando
+        border: 1px sold red
+        margin: 0 !important
+        h2
+            margin-bottom: 15px !important
+            letter-spacing: 2px !important
+        .habilidades-grid
+            display: grid
+            place-items: center
+            grid-template-columns: repeat(2, 1fr) !important
+    
+    .container-aprendendo
+        margin:  15% 0 !important
+        h2
+            margin-bottom: 0px !important
+            letter-spacing: 2px !important
+        .habilidades-grid
+            display: grid
+            place-items: center
+            grid-template-columns: repeat(2, 1fr) !important
+            img
+                margin-top: 55%
+    
+    .container-outros
+        margin:  15% 0 !important
+        h2
+            margin-bottom: 15px !important
+            letter-spacing: 2px !important
+        .habilidades-grid
+            display: grid
+            place-items: center
+            grid-template-columns: repeat(2, 1fr) !important
+            
+
+    

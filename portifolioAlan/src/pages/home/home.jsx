@@ -1,3 +1,4 @@
+import Habilidades from "../../components/Habilidades.jsx"
 import Header from "../../components/Header.jsx"
 import Info from "../../components/Info.jsx"
 import Sobre from "../../components/sobre.jsx"
@@ -10,6 +11,7 @@ function Home() {
     <Sobre />
     <Info/>
     <Sobremim/>
+    <Habilidades/>
     
     <div>
       <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde dolorem, ea officia consequuntur odio tenetur, eum necessitatibus obcaecati dolore aliquid libero qui saepe expedita consequatur incidunt repellendus dolorum tempora? Quisquam?</div>
