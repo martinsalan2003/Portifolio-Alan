@@ -42,7 +42,7 @@ export default function Portifolio() {
                 ))}
             </div>
             <div className="footer-portifolio">
-                <p>Temeem muitos mais por vir!</p>
+                <p>Tem muitos mais por vir!</p>
             </div>
         </section>
     );
