@@ -24,7 +24,6 @@ export default function Portifolio() {
             </div>
 
             <div className="header-portifolio">
-                <h1>Bem - vindo!</h1>
             </div>
             <div className="grid-projetos">
                 {projetos.map((projeto, index) => (
@@ -33,7 +32,7 @@ export default function Portifolio() {
                         <div className="overlay">
                             <h2>{projeto.title}</h2>
                             <p>{projeto.subtitle}</p>
-                            <div className="buttons">
+                            <div className="btns">
                                 <a href={projeto.link1} target="_blank" rel="noopener noreferrer">Ver Projeto</a>
                                 <a href={projeto.link2} target="_blank" rel="noopener noreferrer">Código</a>
                             </div>

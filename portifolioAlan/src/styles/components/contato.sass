@@ -1,0 +1,86 @@
+@import '../global/variables'
+
+.container-contato
+    .container-title
+        text-align: center
+        padding: 6em 20em
+        h1 
+            margin-bottom: 3em
+            span
+                border: 1px solid green
+                letter-spacing: 5px
+                font-family: $font-Montserrat
+                font-weight: bold
+                padding: 15px 30px
+                border: 5px solid #000000 
+        p
+            font-family: $font-Montserrat
+            margin-bottom: 1.5em
+
+    
+    // cokntainer do formilario
+    .container-formulario
+        display: grid
+        place-items: center
+        form 
+            width: 35%
+            display: flex
+            flex-direction: column
+            gap: 32px 
+            input 
+                color: #1D1D1D
+                background-color: transparent
+                border-left: 4px solid #000000
+                border-bottom: 3px solid #000000
+                border-top: none
+                border-right: none
+                padding: 5px 15px 
+                height: 32px 
+                outline-color: #000000
+                font-weight: bold
+
+    
+                &::placeholder
+                    color: #1D1D1D
+                    
+
+            textarea
+                height: 150px
+                border: none
+                resize: none
+                background-color: transparent
+                border-left: 4px solid #000000
+                border-bottom: 3px solid #000000
+                border-top: none
+                padding: 5px 15px 
+                font-weight: bold
+                font-size: 14px
+                &::placeholder
+                    color: #1D1D1D
+                    
+                    
+
+
+            .btn-container
+                display: flex
+                justify-content: center
+                margin-top: 2.5em
+                button
+                    cursor: pointer
+                    font-weight: bold
+                    color: #000000
+                    font-family: $font-Montserrat
+                    background-color: transparent
+                    border: none
+                    border-left: 2px solid #000000
+                    border-right: 2px solid #000000
+                    padding: 5px 25px
+                    transition: all 0.3s ease
+
+                button:hover
+                    letter-spacing: 2.5px
+
+            #honey
+                display: none
+                
+               
