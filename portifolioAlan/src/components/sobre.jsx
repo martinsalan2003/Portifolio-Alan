@@ -15,9 +15,15 @@ export default function Sobre() {
                         <p>Desenvolvedor Front-End / Desenvolvedor Web</p>
                     </div>
                     <div className="icones">
+                    <div className='container-img'>
                         <a href="https://api.whatsapp.com/send?phone=11992946537&text=Ola%20Alan,%20estava%20olhando%20um%20pouco%20do%20seu%20trabalho%20no%20Github" target="_blank"><img src={wpp} alt="whatsapp" /></a>
+                    </div>
+                        <div className='container-img'>
                         <a href="https://github.com/martinsalan2003"target="_blank"><img src={git} alt="github" /></a>
+                        </div>
+                       <div className='container-img'>
                         <a href="https://www.linkedin.com/in/alan-martins-ferreira-5a8a48233/"target="_blank"><img src={linkedin} alt="linkedin" /></a>
+                       </div>
                     </div>
                 </div>
                 <div className="imagem-alan">

@@ -51,18 +51,20 @@
                         
             .icones
                 display: flex
-                align-items: center
-                justify-content: center
-                gap: 15px
-                margin-top: 50px
-                width: 100%
-                img
-                    height: 45px
-                    transition: 0.7s
-
-                img:hover
-                    filter: blur(5px)
+                gap: 30px               
+                margin-top: 5px
+                .container-img 
                     cursor: pointer
+                    transition: 0.2s
+                    img
+                        height: 40px
+            .icones:hover > :not(:hover)
+                    filter: blur(4px)
+                    transform: scale(0.9, 0.9)
+                    
+                   
+
+                
 
         .imagem-alan
             width: 40%
