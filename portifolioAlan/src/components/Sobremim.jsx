@@ -17,7 +17,7 @@ export default function Sobremim() {
     ];
 
     return (
-        <section className="Sobre-mim">
+        <section id='sobre' className="Sobre-mim">
             <div className='container-alan'>
                 <div className="title">
                     <h1>Sobre Mim</h1>
@@ -29,11 +29,13 @@ export default function Sobremim() {
                     
                     {expandirTexto && (
                         <p>
-                           Olá! Me chamo Alan Martins Ferreira, sou de Itaquaquecetuba, Monte Belo, e desde sempre fui fascinado por tecnologia. Minha curiosidade me levou a explorar cada detalhe do meu computador, tentando entender como tudo funcionava. Foi assim que descobri a profissão de programador – e, desde então, nunca mais parei de aprender.
+                           Olá! Me chamo Alan Martins Ferreira, sou de Itaquaquecetuba, Monte Belo, e desde sempre fui fascinado por tecnologia. Minha curiosidade me levou a explorar cada detalhe do meu computador, tentando entender como tudo funcionava. Foi assim que descobri a profissão de programador e, desde então, nunca mais parei de aprender.
 
 Atualmente, estou focado em desenvolvimento Front-End, onde busco criar interfaces intuitivas, responsivas e acessíveis. Estou cursando Análise e Desenvolvimento de Sistemas na Cruzeiro do Sul (3º semestre), aprimorando minhas habilidades para construir experiências digitais inovadoras.
 
-Sou movido por desafios, adoro aprender novas tecnologias e estou sempre em busca de oportunidades para evoluir. 
+Sou movido por desafios e adoro aprender novas tecnologias. Além das habilidades técnicas, possuo forte capacidade de resolução de problemas, pensamento crítico e adaptabilidade, o que me permite enfrentar qualquer obstáculo com determinação. Trabalho bem em equipe, tenho boa comunicação e estou sempre disposto a compartilhar conhecimento.
+
+Estou aberto a novas oportunidades e pronto para encarar qualquer desafio! 
                         </p>
                     )}
 

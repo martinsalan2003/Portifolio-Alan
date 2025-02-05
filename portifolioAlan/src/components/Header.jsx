@@ -35,10 +35,10 @@ function Header() {
 
       <nav className={menuOpen ? 'open' : ''}>
         <ul>
-          <li><a href="#">Sobre mim</a></li>
-          <li><a href="#">Habilidades</a></li>
-          <li><a href="#">Portfólio</a></li>
-          <span><a className='cont' href="#">Me Contratar</a></span>
+          <li><a href="#sobre">Sobre mim</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#portifolio">Portfólio</a></li>
+          <span><a className='cont' href="#contato">Me Contratar</a></span>
         </ul>
       </nav>
     </header>

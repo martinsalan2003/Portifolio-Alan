@@ -3,7 +3,7 @@ import Iconedivisorio from '../assets/images/icone-divisorio.svg';
 
 export default function Contato(){
    return (
-    <section>
+    <section id='contato'>
          <div className='container-contato'> 
            <div className='container-title'>
                  <h1><span>contato</span></h1>

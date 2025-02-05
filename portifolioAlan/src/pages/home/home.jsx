@@ -7,6 +7,7 @@ import Sobremim from '../../components/Sobremim.jsx'
 import Contato from '../../components/Contato.jsx'
 import Footer from '../../components/Footer.jsx'
 
+
 function Home() {
   return (
     <>

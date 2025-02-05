@@ -43,7 +43,7 @@ export default function Habilidades(){
     }
 
     return (
-        <section className="container-habilidades">
+        <section id='habilidades'  className="container-habilidades">
             <h1> <span>Habilidades</span></h1>
           
             <div className='container-usando'>
