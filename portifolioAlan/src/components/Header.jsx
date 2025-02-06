@@ -5,26 +5,42 @@ import Logo from '../assets/images/logo-header.svg';
 function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [isVisible, setIsVisible] = useState(true); 
+  const [lastScrollY, setLastScrollY] = useState(0); 
 
   useEffect(() => {
+    const isMobile = window.innerWidth <= 768;
+
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
+      const currentScrollY = window.scrollY;
+
+      if (isMobile) {
+        if (currentScrollY < lastScrollY) {
+          setIsVisible(true);
+        } else if (currentScrollY > 50) {
+          setIsVisible(false); 
+        }
+
+        setIsScrolled(currentScrollY > 50); 
+      } else {
+        setIsScrolled(currentScrollY > 50);
+      }
+
+      setLastScrollY(currentScrollY);
     };
 
     window.addEventListener('scroll', handleScroll);
-    
+
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  }, [lastScrollY]); 
 
   return (
-    <header className={`${isScrolled ? 'scrolled' : ''} ${menuOpen ? 'menu-open' : ''}`}>
+    <header className={`${isScrolled ? 'scrolled' : ''} ${menuOpen ? 'menu-open' : ''} ${isVisible ? 'visible' : 'hidden'}`}>
       <img src={Logo} alt="logo-dev" />
       
-      
       <div 
-      // inicia o menu mobile
         className={`hamburger ${menuOpen ? 'active' : ''}`} 
         onClick={() => setMenuOpen(!menuOpen)}
       >
