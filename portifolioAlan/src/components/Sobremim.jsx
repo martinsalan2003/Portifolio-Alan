@@ -33,7 +33,7 @@ export default function Sobremim() {
 
 Atualmente, estou focado em desenvolvimento Front-End, onde busco criar interfaces intuitivas, responsivas e acessíveis. Estou cursando Análise e Desenvolvimento de Sistemas na Cruzeiro do Sul (3º semestre), aprimorando minhas habilidades para construir experiências digitais inovadoras.
 
-Sou movido por desafios e adoro aprender novas tecnologias. Além das habilidades técnicas, possuo forte capacidade de resolução de problemas, pensamento crítico e adaptabilidade, o que me permite enfrentar qualquer obstáculo com determinação. Trabalho bem em equipe, tenho boa comunicação e estou sempre disposto a compartilhar conhecimento.
+Sou movido por desafios e adoro aprender novas tecnologias. Além das habilidades técnicas, possuo forte capacidade de resolução de problemas, comunicação eficaz, aprendizado continuo, receptividade a feedback, trabalho em equipe, adaptabilidade, gestão de tempo, atenção aos detalhes o que me permite enfrentar qualquer obstáculo com determinação. Trabalho bem em equipe, tenho boa comunicação e estou sempre disposto a compartilhar conhecimento.
 
 Estou aberto a novas oportunidades e pronto para encarar qualquer desafio! 
                         </p>

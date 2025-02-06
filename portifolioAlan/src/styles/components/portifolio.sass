@@ -102,3 +102,35 @@ section
         p
             color: #ffffff
             font-family: $font-Open-Sans
+
+
+@media (max-width: 768px)
+    
+    .title-portifolio
+        position: relative
+        height: 160px !important
+        overflow: hidden
+        &::before
+            content: ''
+            position: absolute 
+            z-index: 0 
+            top: 0
+            left: 0
+            width: 100%
+            height: 100%
+            background: rgba(214, 211, 211, 0.5)
+        h1
+            background: transparent 
+            position: relative 
+            z-index: 2 
+    .grid-projetos
+         grid-template-columns: repeat(1, 1fr) !important
+
+         .cards-projeto
+
+            .btn
+                &:hover
+                    letter-spacing: 0
+    
+        
+
