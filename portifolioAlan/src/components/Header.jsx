@@ -8,6 +8,10 @@ function Header() {
   const [isVisible, setIsVisible] = useState(true); 
   const [lastScrollY, setLastScrollY] = useState(0); 
 
+  const handleMenuClose = () => {
+    setMenuOpen(false); 
+  };
+
   useEffect(() => {
     const isMobile = window.innerWidth <= 768;
 
@@ -51,10 +55,10 @@ function Header() {
 
       <nav className={menuOpen ? 'open' : ''}>
         <ul>
-          <li><a href="#sobre">Sobre mim</a></li>
-          <li><a href="#habilidades">Habilidades</a></li>
-          <li><a href="#portifolio">Portfólio</a></li>
-          <span><a className='cont' href="#contato">Me Contratar</a></span>
+          <li><a href="#sobre" onClick={handleMenuClose}>Sobre mim</a></li>
+          <li><a href="#habilidades" onClick={handleMenuClose}>Habilidades</a></li>
+          <li><a href="#portifolio" onClick={handleMenuClose}>Portfólio</a></li>
+          <span><a className='cont' href="#contato" onClick={handleMenuClose}>Me Contratar</a></span>
         </ul>
       </nav>
     </header>
