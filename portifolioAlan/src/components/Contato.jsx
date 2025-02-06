@@ -29,7 +29,6 @@ export default function Contato(){
                     <input type="hidden" name='_subject' value='Novo contato!'/>
                     <input type="hidden" name='_captcha' value='false' />
                     <input type="text" name='_honey' id='honey' />
-                    <input type="hidden" name="_next" value=''></input>
                 </form>
             </div>
           
