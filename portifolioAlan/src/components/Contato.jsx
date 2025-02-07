@@ -1,4 +1,3 @@
-import {Link} from 'react-router-dom'
 
 import '../styles/components/contato.sass'
 import Iconedivisorio from '../assets/images/icone-divisorio.svg';
@@ -29,6 +28,7 @@ export default function Contato(){
                     <input type="hidden" name='_subject' value='Novo contato!'/>
                     <input type="hidden" name='_captcha' value='false' />
                     <input type="text" name='_honey' id='honey' />
+                    <input type="oculto" nome="_next" valor="https://tela-de-redirecionamento.vercel.app/"></input>
                 </form>
             </div>
           
