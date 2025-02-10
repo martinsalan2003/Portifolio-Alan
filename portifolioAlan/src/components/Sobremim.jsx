@@ -29,13 +29,7 @@ export default function Sobremim() {
                     
                     {expandirTexto && (
                         <p>
-                           Olá! Me chamo Alan Martins Ferreira, sou de Itaquaquecetuba, Monte Belo, e desde sempre fui fascinado por tecnologia. Minha curiosidade me levou a explorar cada detalhe do meu computador, tentando entender como tudo funcionava. Foi assim que descobri a profissão de programador e, desde então, nunca mais parei de aprender.
-
-Atualmente, estou focado em desenvolvimento Front-End, onde busco criar interfaces intuitivas, responsivas e acessíveis. Estou cursando Análise e Desenvolvimento de Sistemas na Cruzeiro do Sul (3º semestre), aprimorando minhas habilidades para construir experiências digitais inovadoras.
-
-Sou movido por desafios e adoro aprender novas tecnologias. Além das habilidades técnicas, possuo forte capacidade de resolução de problemas, comunicação eficaz, aprendizado continuo, receptividade a feedback, trabalho em equipe, adaptabilidade, gestão de tempo, atenção aos detalhes o que me permite enfrentar qualquer obstáculo com determinação. Trabalho bem em equipe, tenho boa comunicação e estou sempre disposto a compartilhar conhecimento.
-
-Estou aberto a novas oportunidades e pronto para encarar qualquer desafio! 
+                           Olá! Eu chamo Alan Martins Ferreira, sou de Itaquaquecetuba - SP, e desde sempre fui fascinado por tecnologia. Minha curiosidade me levou a explorar cada detalhe do meu computador, tentando entender como tudo funcionava. Ao decorrer de anos acabei descobrindo a profissão de programador, na qual me despertou interesse em saber mais sobre a profissão, Atualmente, estou focado em desenvolvimento Front-End, onde busco criar interfaces intuitivas, responsivas e acessíveis. Estou cursando Análise e Desenvolvimento de Sistemas na Cruzeiro do Sul (3º semestre), aprimorando minhas habilidades para construir experiências digitais inovadoras. Sou movido por desafios e adoro aprender novas tecnologias. Além das habilidades técnicas, possuo forte capacidade de resolução de problemas, comunicação eficaz, aprendizado contínuo, receptividade a feedback, trabalho em equipe, adaptabilidade, gestão de tempo, atenção aos detalhes o que me permite enfrentar qualquer obstáculo com determinação. Trabalho bem em equipe, tenho boa comunicação e estou sempre disposto a compartilhar conhecimento. Estamos abertos a novas oportunidades e prontos para enfrentar qualquer desafio!
                         </p>
                     )}
 
