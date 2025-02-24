@@ -20,7 +20,7 @@ export default function Portifolio() {
     return (
         <section id='portifolio' className='portifolio'>
             <div className='title-portifolio'>
-                <h1>Portifólio</h1>
+                <h1>Portfólio</h1>
             </div>
 
             <div className="header-portifolio">
